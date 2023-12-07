@@ -27,14 +27,12 @@ public class ProdutoControl {
  
 
 public void pesquisar(){
-List<Produto>l=ProdutoDaoImplements(nomeProduto.get());
-lista.addAll(l);
+List<Produto>l=dao.pesquisar(nomeProduto.get());
+lista.setAll(l);
 
 }
 
-private List<Produto> ProdutoDaoImplements(String string) {
-    return null;
-}
+
 
 public Produto getEntity(){
     Produto p= new Produto();
