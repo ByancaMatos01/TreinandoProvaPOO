@@ -24,7 +24,7 @@ private TableView table= new TableView<>();
 public void generateBindings(){
     Bindings.bindBidirectional(txtid.textProperty(), control.idProdutoProperty());
     Bindings.bindBidirectional(txtnome.textProperty(), control.nomeProdutoProperty());
-    Bindings.bindBidirectional(txttipo.textProperty(), control.tipoProdutoProprety());
+    Bindings.bindBidirectional(txttipo.textProperty(), control.tipoProdutoProperty());
     Bindings.bindBidirectional(txtpreco.textProperty(),control.precoProdutoProperty());
 }
 public void start(Stage stage) throws Exception { 
